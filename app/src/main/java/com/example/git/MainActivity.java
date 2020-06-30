@@ -11,9 +11,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        String str1 = "a";
-        String str2 = "b";
-        String str3 = "c";
+        int a = 1;
+        int b = 2;
+        int c = 3;
 
 
     }
