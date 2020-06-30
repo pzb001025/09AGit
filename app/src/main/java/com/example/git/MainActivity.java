@@ -3,6 +3,7 @@ package com.example.git;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -11,8 +12,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        String str1 = "a";
-        String str2 = "b";
-        String str3 = "c";
+        int a = 1;
+        int b = 2;
+        int c = a + b;
+        Log.d("TAG", "onCreate: "+c);
     }
 }
